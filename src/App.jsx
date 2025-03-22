@@ -12,7 +12,7 @@ const App = () => {
     <div className = 'App'>
       <div className="container">
         <div className="company">
-          <h1>Royal Treatment Paint & Design</h1>
+          <h3>Royal Treatment Paint & Design</h3>
         </div>
         <div className="logo">
           <img src= {logo} alt="Royal Treatment Paint & Design" />
