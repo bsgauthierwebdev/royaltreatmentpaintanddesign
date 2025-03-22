@@ -49,14 +49,14 @@ const App = () => {
             </a>
           </div>
         </div>
-        <div className="test">
+        {/* <div className="test">
           <a href="tel:+17324077122">
             <LocalPhoneOutlinedIcon sx={{ fontSize: 50 }} />
           </a>
           <a href="mailto:cajundrummer@gmail.com">
             <EmailIcon sx={{ fontSize: 50 }} />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   )
