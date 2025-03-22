@@ -116,3 +116,8 @@ h2 {
   height: 55px;
   border-radius: 50%;
 }
+
+.phone, .email, .instagram, .facebook {
+  position: relative;
+  z-index: 10;
+}
