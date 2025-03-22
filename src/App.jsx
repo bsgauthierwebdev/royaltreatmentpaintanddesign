@@ -5,7 +5,6 @@ import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import './App.css'
-import { Face } from '@mui/icons-material';
 
 const App = () => {
   return (
@@ -39,12 +38,21 @@ const App = () => {
         <div className="online">Check us out online!</div>
         <div className="social">
           <div className="instagram">
-            <a href = 'https://instagram.com/royaltreatmentpaint' target = '_blank' rel = 'noopener noreferrer'>
+            <a 
+              href = 'https://instagram.com/royaltreatmentpaint' 
+              target = '_blank' 
+              rel = 'noopener noreferrer'
+              onClick = {() => console.log('Clicked')}
+            >
               <InstagramIcon fontSize='large' />
             </a>
           </div>
           <div className="facebook">
-            <a href = 'https://www.facebook.com/profile.php?id=61572849072714' target = '_blank' rel = 'noopener noreferrer'>
+            <a 
+              href = 'https://www.facebook.com/profile.php?id=61572849072714' 
+              target = '_blank' 
+              rel = 'noopener noreferrer'
+            >
               <FacebookIcon fontSize='large' />
             </a>
           </div>
