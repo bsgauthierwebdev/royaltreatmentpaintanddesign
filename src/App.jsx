@@ -39,7 +39,7 @@ const App = () => {
             </a>
           </div>
         </div>
-        <div className="online">Check us out online!</div>
+        <div className="online">Check us out online</div>
         <div className="social">
           <div className="instagram">
             <a 
