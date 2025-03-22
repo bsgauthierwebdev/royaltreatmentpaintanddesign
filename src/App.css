@@ -1,0 +1,159 @@
+:root {
+  --primary-purple: #331443;
+  --secondary-purple:#0c0112;
+  --primary-white: #ecf1f0;
+  --secondary-white: #b6b6b6;
+  --primary-font: "raleway", sans-serif;
+  --secondary-font: "roboto", sans-serif;
+  --heading-desktop: :60px;
+  --heading-mobile: :40px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.App {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(#0c0112 10%, #331443 110%);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.company {
+  text-align: center;
+  font-family: var(--primary-font);
+  color: var(--primary-white);
+  margin-top: 60px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.logo img {
+  width: 50vw;
+  border: solid 15px white;
+  border-radius: 15px;
+}
+
+.name {
+  font-family: var(--primary-font);
+  color: var(--primary-white);
+  text-align: center;
+}
+
+.title {
+  font-family: var(--secondary-font);
+  color: var(--secondary-white);
+  text-align: center;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 18px;
+  color: var(--secondary-white)
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.phone, .email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-white);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%; /* Circular background */
+}
+
+.online {
+  text-align: center;
+  font-size: 18px;
+  color: var(--secondary-white);
+  margin-bottom: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 60px;
+}
+
+.instagram, .facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-white);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
