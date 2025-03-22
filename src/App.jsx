@@ -26,12 +26,16 @@ const App = () => {
         <div className="contact">
           <div className="phone">
             <a href = 'tel:+18482347590'>
-              <LocalPhoneOutlinedIcon fontSize='large' />
+              <span>
+                <LocalPhoneOutlinedIcon fontSize='large' />
+              </span>
             </a>
           </div>
           <div className="email">
             <a href = 'mailto:royaltreatmentpaintllc@gmail.com'>
-              <EmailIcon fontSize='large' />
+              <span>
+                <EmailIcon fontSize='large' />
+              </span>
             </a>
           </div>
         </div>
@@ -44,7 +48,9 @@ const App = () => {
               rel = 'noopener noreferrer'
               onClick = {() => console.log('Clicked')}
             >
-              <InstagramIcon fontSize='large' />
+              <span>
+                <InstagramIcon fontSize='large' />
+              </span>
             </a>
           </div>
           <div className="facebook">
@@ -53,18 +59,12 @@ const App = () => {
               target = '_blank' 
               rel = 'noopener noreferrer'
             >
-              <FacebookIcon fontSize='large' />
+              <span>
+                <FacebookIcon fontSize='large' />
+              </span>
             </a>
           </div>
         </div>
-        {/* <div className="test">
-          <a href="tel:+17324077122">
-            <LocalPhoneOutlinedIcon sx={{ fontSize: 50 }} />
-          </a>
-          <a href="mailto:cajundrummer@gmail.com">
-            <EmailIcon sx={{ fontSize: 50 }} />
-          </a>
-        </div> */}
       </div>
     </div>
   )

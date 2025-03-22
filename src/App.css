@@ -1,18 +1,19 @@
 :root {
   --primary-purple: #331443;
-  --secondary-purple:#0c0112;
+  --secondary-purple: #0c0112;
   --primary-white: #ecf1f0;
   --secondary-white: #b6b6b6;
-  --primary-font: "raleway", sans-serif;
-  --secondary-font: "roboto", sans-serif;
-  --heading-desktop: :60px;
-  --heading-mobile: :40px;
+  --primary-font: "Raleway", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+  --heading-desktop: 60px;
+  --heading-mobile: 40px;
 }
 
 body {
   margin: 0;
   height: 100vh;
   overflow-y: scroll;
+  font-family: var(--primary-font);
 }
 
 .App {
@@ -21,10 +22,10 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: -1;
   background: linear-gradient(#0c0112 10%, #331443 110%);
   background-attachment: fixed;
   background-size: cover;
+  z-index: 0;
 }
 
 h1 {
@@ -81,15 +82,33 @@ h2 {
   height: 60px;
   margin-bottom: 10px;
 }
-
-.phone, .email {
+.phone, .email, .instagram, .facebook {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background-color: var(--primary-white);
   width: 55px;
   height: 55px;
-  border-radius: 50%; /* Circular background */
+  border-radius: 50%;
+  position: relative;
+  z-index: 10;
+}
+
+a {
+  pointer-events: auto;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  touch-action: manipulation;
+}
+
+a span {
+  display: flex;
+  padding: 15px;
 }
 
 .online {
@@ -105,35 +124,4 @@ h2 {
   align-items: center;
   gap: 20px;
   height: 60px;
-}
-
-.instagram, .facebook {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--primary-white);
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-}
-
-.phone, .email, .instagram, .facebook {
-  position: relative;
-  z-index: 10;
-}
-
-.test {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  height: 60px;
-}
-
-a {
-  pointer-events: auto;
-  z-index: 10;
-  display: inline-block;
-  padding: 20px;
-  border: solid 1px red;
 }
