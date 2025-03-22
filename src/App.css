@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  /* height: 100vh; */
+  height: 100vh;
   overflow-y: scroll;
 }
 
@@ -21,9 +21,10 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   z-index: -1;
   background: linear-gradient(#0c0112 10%, #331443 110%);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
