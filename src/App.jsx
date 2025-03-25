@@ -17,8 +17,7 @@ const App = () => {
           <img src= {logo} alt="Royal Treatment Paint & Design" />
         </div>
         <div className="name">
-          {/* <h1>AJ Hendricks</h1> */}
-          <h1>AJ</h1>
+          <h1>AJ Hendricks</h1>
         </div>
         <div className="title">
           <h2>Painting / Renovation</h2>
